@@ -1,17 +1,11 @@
-//
-//  MoviesApp.swift
-//  Movies
-//
-//  Created by Marlon Rugama on 4/1/25.
-//
-
 import SwiftUI
+import MainTabView
 
 @main
 struct MoviesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabViewFeature.page
         }
     }
 }
