@@ -1,5 +1,5 @@
-import SwiftUI
 import RestAPI
+import SwiftUI
 
 @MainActor
 protocol ViewModel

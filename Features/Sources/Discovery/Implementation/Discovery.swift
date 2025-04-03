@@ -1,7 +1,7 @@
-import SwiftUI
-import RestAPI
-import DataLoader
 import Booking
+import DataLoader
+import RestAPI
+import SwiftUI
 
 struct Discovery: View {
     @State private var viewModel: ViewModel = ViewModelImpl(
