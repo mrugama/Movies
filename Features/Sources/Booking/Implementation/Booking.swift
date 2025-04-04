@@ -1,5 +1,3 @@
-import DataLoader
-import RestAPI
 import SwiftUI
 
 struct Booking: View {
@@ -50,7 +48,7 @@ struct Booking: View {
                         )
                 } placeholder: {
                     Image(systemName: "movieclapper")
-                        .font(.title)
+                        .font(.largeTitle)
                         .imageScale(.large)
                 }
             } else {
