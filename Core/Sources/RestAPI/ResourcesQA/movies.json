@@ -1,0 +1,314 @@
+[
+  {
+    "Rank": 1,
+    "Duration": "200 min",
+    "Description": "The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on his crime syndicate stretching from Lake Tahoe, Nevada to pre-revolution 1958 Cuba.",
+    "Director": "Francis Ford Coppola",
+    "Genres": [
+      "Crime",
+      "Drama"
+    ],
+    "Actors": [
+      "Al Pacino",
+      "Robert Duvall",
+      "Diane Keaton",
+      "Robert De Niro",
+      "John Cazale",
+      "Talia Shire",
+      "Lee Strasberg",
+      "Michael V. Gazzo",
+      "G.D. Spradlin",
+      "Richard Bright",
+      "Gastone Moschin",
+      "Tom Rosqui",
+      "Bruno Kirby",
+      "Frank Sivero",
+      "Francesca De Sapio"
+    ],
+    "Id": 17,
+    "Name": "The Godfather: Part II"
+  },
+  {
+    "Rank": 2,
+    "Duration": "124 min",
+    "Description": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
+    "Director": "Irvin Kershner",
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "Actors": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Billy Dee Williams",
+      "Anthony Daniels",
+      "David Prowse",
+      "Peter Mayhew",
+      "Kenny Baker",
+      "Frank Oz",
+      "Alec Guinness",
+      "Jeremy Bulloch",
+      "John Hollis",
+      "Jack Purvis",
+      "Des Webb",
+      "Clive Revill"
+    ],
+    "Id": 80,
+    "Name": "Star Wars: Episode V - The Empire Strikes Back"
+  },
+  {
+    "Rank": 3,
+    "Duration": "195 min",
+    "Description": "In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "Director": "Steven Spielberg",
+    "Genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "Actors": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes",
+      "Caroline Goodall",
+      "Jonathan Sagall",
+      "Embeth Davidtz",
+      "Malgorzata Gebel",
+      "Shmuel Levy",
+      "Mark Ivanir",
+      "Béatrice Macola",
+      "Andrzej Seweryn",
+      "Friedrich von Thun",
+      "Krzysztof Luft",
+      "Harry Nehring",
+      "Norbert Weisser"
+    ],
+    "Id": 45,
+    "Name": "Schindler's List"
+  },
+  {
+    "Rank": 4,
+    "Duration": "109 min",
+    "Description": "A Phoenix secretary steals $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
+    "Director": "Alfred Hitchcock",
+    "Genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "Actors": [
+      "Anthony Perkins",
+      "Vera Miles",
+      "John Gavin",
+      "Janet Leigh",
+      "Martin Balsam",
+      "John McIntire",
+      "Simon Oakland",
+      "Frank Albertson",
+      "Patricia Hitchcock",
+      "Vaughn Taylor",
+      "Lurene Tuttle",
+      "John Anderson",
+      "Mort Mills"
+    ],
+    "Id": 248,
+    "Name": "Psycho"
+  },
+  {
+    "Rank": 5,
+    "Duration": "169 min",
+    "Description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "Director": "Christopher Nolan",
+    "Genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "Actors": [
+      "Ellen Burstyn",
+      "Matthew McConaughey",
+      "Mackenzie Foy",
+      "John Lithgow",
+      "Timothée Chalamet",
+      "David Oyelowo",
+      "Collette Wolfe",
+      "Francis X. McCarthy",
+      "Bill Irwin",
+      "Anne Hathaway",
+      "Andrew Borba",
+      "Wes Bentley",
+      "William Devane",
+      "Michael Caine",
+      "David Gyasi"
+    ],
+    "Id": 199,
+    "Name": "Interstellar"
+  },
+  {
+    "Rank": 6,
+    "Duration": "155 min",
+    "Description": "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
+    "Director": "Ridley Scott",
+    "Genres": [
+      "Action",
+      "Drama"
+    ],
+    "Actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed",
+      "Richard Harris",
+      "Derek Jacobi",
+      "Djimon Hounsou",
+      "David Schofield",
+      "John Shrapnel",
+      "Tomas Arana",
+      "Ralf Moeller",
+      "Spencer Treat Clark",
+      "David Hemmings",
+      "Tommy Flanagan",
+      "Sven-Ole Thorsen"
+    ],
+    "Id": 318,
+    "Name": "Gladiator"
+  },
+  {
+    "Rank": 7,
+    "Duration": "130 min",
+    "Description": "An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.",
+    "Director": "Frank Capra",
+    "Genres": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "Actors": [
+      "James Stewart",
+      "Donna Reed",
+      "Lionel Barrymore",
+      "Thomas Mitchell",
+      "Henry Travers",
+      "Beulah Bondi",
+      "Frank Faylen",
+      "Ward Bond",
+      "Gloria Grahame",
+      "H.B. Warner",
+      "Todd Karns",
+      "Samuel S. Hinds",
+      "Mary Treen",
+      "Frank Albertson",
+      "Virginia Patton"
+    ],
+    "Id": 171,
+    "Name": "It's a Wonderful Life"
+  },
+  {
+    "Rank": 8,
+    "Duration": "1 hr. 44 min.",
+    "Description": "The Egyptian Revolution has been an ongoing rollercoaster over the past two and a half years. Through the news, we only get a glimpse of the bloodiest battle, an election, or a million man march. At the beginning of July 2013, we witnessed the second president deposed within the space of three years. The Square is an immersive experience, transporting the viewer deeply into the intense emotional drama and personal stories behind the news. It is the inspirational story of young people claiming ...",
+    "Director": "Jehane Noujaim",
+    "Genres": [
+      "Documentary",
+      "Special Interest"
+    ],
+    "Actors": [
+      "Khalid Abdalla",
+      "Ahmed Hassan",
+      "Magdy Ashour",
+      "Ragia Omran",
+      "Ramy Essam",
+      "Aida El Kashef",
+      "Dina Abdullah",
+      "Dina Amer",
+      "Sherif Boray"
+    ],
+    "Id": 521,
+    "Name": "THE SQUARE (2013)"
+  },
+  {
+    "Rank": 9,
+    "Duration": "117 min",
+    "Description": "The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.",
+    "Director": "Ridley Scott",
+    "Genres": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "Actors": [
+      "Tom Skerritt",
+      "Sigourney Weaver",
+      "Veronica Cartwright",
+      "Harry Dean Stanton",
+      "John Hurt",
+      "Ian Holm",
+      "Yaphet Kotto",
+      "Bolaji Badejo",
+      "Helen Horton"
+    ],
+    "Id": 367,
+    "Name": "Alien"
+  },
+  {
+    "Rank": 10,
+    "Duration": "130 min",
+    "Description": "Two stage magicians engage in competitive one-upmanship in an attempt to create the ultimate stage illusion.",
+    "Director": "Christopher Nolan",
+    "Genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "Actors": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Michael Caine",
+      "Piper Perabo",
+      "Rebecca Hall",
+      "Scarlett Johansson",
+      "Samantha Mahurin",
+      "David Bowie",
+      "Andy Serkis",
+      "Daniel Davis",
+      "Jim Piddock",
+      "Christopher Neame",
+      "Mark Ryan",
+      "Roger Rees",
+      "Jamie Harris"
+    ],
+    "Id": 360,
+    "Name": "The Prestige"
+  },
+  {
+    "Rank": 11,
+    "Duration": "142 min",
+    "Description": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
+    "Director": "Robert Zemeckis",
+    "Genres": [
+      "Drama",
+      "Romance"
+    ],
+    "Actors": [
+      "Tom Hanks",
+      "Rebecca Williams",
+      "Sally Field",
+      "Michael Conner Humphreys",
+      "Harold G. Herthum",
+      "George Kelly",
+      "Bob Penny",
+      "John Randall",
+      "Sam Anderson",
+      "Margo Moorer",
+      "Ione M. Telech",
+      "Christine Seabrook",
+      "John Worsham",
+      "Peter Dobson",
+      "Siobhan Fallon"
+    ],
+    "Id": 87,
+    "Name": "Forrest Gump"
+  }
+]

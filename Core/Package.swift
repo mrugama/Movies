@@ -19,7 +19,12 @@ let package = Package(
         .target(name: "DataLoader"),
         .target(
             name: "RestAPI",
-            dependencies: ["DataLoader"]
+            dependencies: ["DataLoader"],
+            resources: [
+                .copy("ResourcesQA/rank.json"),
+                .copy("ResourcesQA/movies.json"),
+                .copy("ResourcesQA/movieDetails.json"),
+            ]
         ),
     ]
 )

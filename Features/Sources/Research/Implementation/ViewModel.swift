@@ -1,23 +1,11 @@
 import SwiftUI
 import RestAPI
 
-@MainActor
-protocol ViewModel
-where Self: Observable {
-    var movies: [any Movie] { get }
-    var restAPI: RestAPI { get }
-    var output: String { get }
-    var shouldShowMessage: Bool { get set }
-    
-    func loadTop10Movies() async
-}
-
-@Observable
-final class ViewModelImpl: ViewModel {
-    var movies: [any Movie] = []
+struct ResearchViewModel: DynamicProperty {
+    @State var movies: [any Movie] = []
     let restAPI: RestAPI
-    var output: String = ""
-    var shouldShowMessage: Bool = false
+    @State var output: String = ""
+    @State var shouldShowMessage: Bool = false
     
     init(_ restAPI: RestAPI) {
         self.restAPI = restAPI

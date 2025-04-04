@@ -1,14 +1,8 @@
 import SwiftUI
-import RestAPI
-import DataLoader
 import Booking
 
 struct Research: View {
-    @State private var viewModel: ViewModel = ViewModelImpl(
-        RestAPIService.provideRestAPI(
-            DataLoaderService.provideDataLoader()
-        )
-    )
+    var viewModel: ResearchViewModel
     
     var body: some View {
         NavigationStack {
@@ -42,7 +36,7 @@ struct Research: View {
             .refreshable {
                 await viewModel.loadTop10Movies()
             }
-            .alert(viewModel.output, isPresented: $viewModel.shouldShowMessage) {
+            .alert(viewModel.output, isPresented: viewModel.$shouldShowMessage) {
                 Button("OK", role: .cancel) { }
             }
             .navigationTitle("Research films")
@@ -52,3 +46,17 @@ struct Research: View {
         }
     }
 }
+
+#if DEBUG
+import RestAPI
+import DataLoader
+#Preview {
+    Research(
+        viewModel: ResearchViewModel(
+            RestAPIService.provideRestAPIFake(
+                DataLoaderService.provideDataLoader()
+            )
+        )
+    )
+}
+#endif

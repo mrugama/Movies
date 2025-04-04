@@ -46,3 +46,7 @@ struct Discovery: View {
         }
     }
 }
+
+#Preview {
+    Discovery()
+}

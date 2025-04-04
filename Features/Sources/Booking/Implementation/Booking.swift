@@ -52,7 +52,7 @@ struct Booking: View {
                         .imageScale(.large)
                 }
             } else {
-                EmptyView()
+                ProgressView("Fetching from online")
             }
         }
         .task {
@@ -129,4 +129,19 @@ struct Booking: View {
         }
     }
 }
+
+#if DEBUG
+import DataLoader
+import RestAPI
+#Preview(traits: .sizeThatFitsLayout) {
+    Booking(
+        id: 17,
+        viewModel: .init(
+            RestAPIService.provideRestAPIFake(
+                DataLoaderService.provideDataLoader()
+            )
+        )
+    )
+}
+#endif
 

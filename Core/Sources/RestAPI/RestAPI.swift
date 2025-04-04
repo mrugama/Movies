@@ -34,12 +34,25 @@ where Self: Sendable, Self: Decodable {
 public protocol RestAPI
 where Self: Sendable {
     func allMovies() async throws -> [any Movie]
-    func movieDetails(_ id: Int) async throws -> MovieDetail
-    func moviesByRank(_ startRankIndex: Int, pageSize: Int) async throws -> [any MovieRank]
+    func movieDetails(_ id: Int) async throws -> MovieDetail?
+    func moviesByRank(
+        _ startRankIndex: Int,
+        pageSize: Int
+    ) async throws -> [any MovieRank]
 }
 
 public struct RestAPIService: Sendable {
-    static public func provideRestAPI(_ dataLoader: DataLoader) -> RestAPI {
+    static public func provideRestAPI(
+        _ dataLoader: DataLoader
+    ) -> RestAPI {
         RestAPIImpl(dataLoader: dataLoader)
     }
+    
+#if DEBUG
+    static public func provideRestAPIFake(
+        _ dataLoader: DataLoader
+    ) -> RestAPI {
+        RestAPIFake(dataLoader: dataLoader)
+    }
+#endif
 }

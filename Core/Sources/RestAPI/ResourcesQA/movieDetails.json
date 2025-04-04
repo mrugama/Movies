@@ -1,0 +1,29 @@
+[
+  {
+    "Duration": "112 min",
+    "Description": "A wheelchair bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.",
+    "Director": "Alfred Hitchcock",
+    "Genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "Actors": [
+      "James Stewart",
+      "Grace Kelly",
+      "Wendell Corey",
+      "Thelma Ritter",
+      "Raymond Burr",
+      "Judith Evelyn",
+      "Ross Bagdasarian",
+      "Georgine Darcy",
+      "Sara Berner",
+      "Frank Cady",
+      "Jesslyn Fax",
+      "Rand Harper",
+      "Irene Winston",
+      "Havis Davenport"
+    ],
+    "Id": 17,
+    "Name": "Rear Window"
+  }
+]
