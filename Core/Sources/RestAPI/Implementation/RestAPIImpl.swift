@@ -16,10 +16,14 @@ struct RestAPIImpl: RestAPI {
     let dataLoader: DataLoader
     
     func allMovies() async throws -> [any Movie] {
-        let movies: [MovieModel] = try await loadData(
-            urlStr: EndpointManager.allMovies.urlStr
-        )
-        return movies
+        do {
+            let movies: [MovieModel] = try await loadData(
+                urlStr: EndpointManager.allMovies.urlStr
+            )
+            return movies
+        } catch {
+            throw RestAPIError.invalidModel
+        }
     }
     
     func movieDetails(_ id: Int) async throws -> MovieDetail? {

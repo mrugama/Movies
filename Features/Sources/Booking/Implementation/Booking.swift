@@ -72,6 +72,7 @@ struct Booking: View {
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: 200)
                 .aspectRatio(contentMode: .fill)
+                .cornerRadius(10)
             Text(name)
                 .font(.title)
                 .fontWeight(.bold)
@@ -102,12 +103,12 @@ struct Booking: View {
             VStack(alignment: .leading) {
                 Text("Genres: ")
                     .fontWeight(.bold)
-                Text("\(genres, format: .list(type: .and))")
+                Text(genres, format: .list(type: .and))
             }
             VStack(alignment: .leading) {
                 Text("Actors: ")
                     .fontWeight(.bold)
-                Text("\(actors, format: .list(type: .and))")
+                Text(actors, format: .list(type: .and))
             }
         }
     }
@@ -133,6 +134,7 @@ struct Booking: View {
 #if DEBUG
 import DataLoader
 import RestAPI
+
 #Preview(traits: .sizeThatFitsLayout) {
     Booking(
         id: 17,

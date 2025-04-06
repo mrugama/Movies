@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "Discovery",
             dependencies: [
+                "Booking",
                 .product(name: "DataLoader", package: "Core"),
                 .product(name: "RestAPI", package: "Core")
             ]
@@ -28,6 +29,7 @@ let package = Package(
         .target(
             name: "Research",
             dependencies: [
+                "Booking",
                 .product(name: "DataLoader", package: "Core"),
                 .product(name: "RestAPI", package: "Core")
             ]

@@ -6,7 +6,7 @@ import SwiftUI
 public struct ResearchFeature: Sendable {
     static public var page: some View {
         Research(
-            viewModel: ResearchViewModel(
+            viewModel: .init(
                 RestAPIService.provideRestAPI(
                     DataLoaderService.provideDataLoader()
                 )

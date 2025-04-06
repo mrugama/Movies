@@ -1,14 +1,8 @@
 import Booking
-import DataLoader
-import RestAPI
 import SwiftUI
 
 struct Discovery: View {
-    @State private var viewModel: ViewModel = ViewModelImpl(
-        RestAPIService.provideRestAPI(
-            DataLoaderService.provideDataLoader()
-        )
-    )
+    var viewModel: DiscoveryViewModel
     
     var body: some View {
         NavigationStack {
@@ -20,7 +14,7 @@ struct Discovery: View {
                             .frame(width: 40)
                             .overlay {
                                 Text("\(movie.Rank)")
-                                    .font(.subheadline)
+                                    .font(.subheadline.bold())
                                     .foregroundStyle(Color.white)
                             }
                         Text(movie.Name)
@@ -36,7 +30,10 @@ struct Discovery: View {
             .refreshable {
                 await viewModel.loadTop10Movies()
             }
-            .alert(viewModel.output, isPresented: $viewModel.shouldShowMessage) {
+            .alert(
+                viewModel.output,
+                isPresented: viewModel.$shouldShowMessage
+            ) {
                 Button("OK", role: .cancel) { }
             }
             .navigationTitle("Top ten films")
@@ -47,6 +44,17 @@ struct Discovery: View {
     }
 }
 
-#Preview {
-    Discovery()
+#if DEBUG
+import DataLoader
+import RestAPI
+
+#Preview(traits: .sizeThatFitsLayout) {
+    Discovery(
+        viewModel: .init(
+            RestAPIService.provideRestAPIFake(
+                DataLoaderService.provideDataLoader()
+            )
+        )
+    )
 }
+#endif

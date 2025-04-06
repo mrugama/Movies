@@ -1,5 +1,5 @@
-import SwiftUI
 import Booking
+import SwiftUI
 
 struct Research: View {
     var viewModel: ResearchViewModel
@@ -18,12 +18,12 @@ struct Research: View {
                         VStack(alignment: .leading) {
                             Text("Genres: ")
                                 .fontWeight(.bold)
-                            Text(movie.Genres.joined(separator: ", "))
+                            Text(movie.Genres, format: .list(type: .and))
                         }
                         VStack(alignment: .leading) {
                             Text("Actors: ")
                                 .fontWeight(.bold)
-                            Text(movie.Actors.joined(separator: ", "))
+                            Text(movie.Actors, format: .list(type: .and))
                         }
                     }
                     .padding()
@@ -50,7 +50,7 @@ struct Research: View {
 #if DEBUG
 import RestAPI
 import DataLoader
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     Research(
         viewModel: ResearchViewModel(
             RestAPIService.provideRestAPIFake(
