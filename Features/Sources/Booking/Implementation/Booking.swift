@@ -102,12 +102,12 @@ struct Booking: View {
             VStack(alignment: .leading) {
                 Text("Genres: ")
                     .fontWeight(.bold)
-                Text(genres.joined(separator: ", "))
+                Text("\(genres, format: .list(type: .and))")
             }
             VStack(alignment: .leading) {
                 Text("Actors: ")
                     .fontWeight(.bold)
-                Text(actors.joined(separator: ", "))
+                Text("\(actors, format: .list(type: .and))")
             }
         }
     }
